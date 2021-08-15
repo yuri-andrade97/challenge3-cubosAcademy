@@ -1,0 +1,25 @@
+.sidebar {
+  display: flex;
+  width: 100px;
+  background-color: #434343;
+
+  border-radius: 0 0 18px 0;
+
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 90px;
+
+  gap: 24px
+}
+
+svg {
+  width: 38px;
+  height: 38px;
+
+  cursor: pointer;
+}
